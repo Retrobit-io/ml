@@ -1,6 +1,9 @@
 # OS level
 *.DS_Store
 
+# IFC Specific (always pull down from other sources)
+*.ifc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
