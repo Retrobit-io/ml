@@ -3,7 +3,17 @@ import re
 def greeting():
   print(f"Hello, world! I'm retrobit.io! Hope you're ready for me!")
 
-def write_ifc(filename="retrobit.ifc"):
+def dummy(filename="retrobit.ifc"):
+  """ 
+    Create a random dummy IFC file
+  
+    Args:
+    filename (string): Name of the IFC file.
+    schema (string): IFC schema version
+
+    Output:
+    Valid IFC filex
+  """
   file_contents = "ISO-10303-21;\n"
   file_contents = file_contents + "HEADER;\n"
   file_contents = file_contents + "FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');\n"
